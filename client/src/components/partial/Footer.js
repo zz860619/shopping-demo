@@ -8,6 +8,10 @@ class Footer extends React.Component{
         if(url.includes("/ItemsDashBoard/new")){
             return null;
         }
+        if(url.includes("/Login")){
+            return null;
+        }
+
 
 
         return(
