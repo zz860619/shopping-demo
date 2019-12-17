@@ -61,7 +61,7 @@ class shopItemShow extends React.Component{
             <nav aria-label="breadcrumb mb-3">
                 <ol className="breadcrumb">
                     <li className="breadcrumb-item" aria-current="page"><Link to="/" style={{textDecoration:"none",color:"black"}}>首頁</Link></li>
-                    <li className="breadcrumb-item active" aria-current="page"><Link to="/shopItem" style={{textDecoration:"none",color:"black"}}>商品列表</Link></li>
+                    <li className="breadcrumb-item active" aria-current="page"><Link to="/shopItem/all" style={{textDecoration:"none",color:"black"}}>商品列表</Link></li>
                     <li className="breadcrumb-item active" aria-current="page"><Link to={`/shopItem/${this.props.items[0].category}`} style={{textDecoration:"none",color:"black"}}>{category}</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">{this.props.items[0].name}</li>
                 </ol>
